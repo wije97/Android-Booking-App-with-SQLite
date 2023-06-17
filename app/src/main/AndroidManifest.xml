@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.villagetravel">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="Village Travel"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="com.example.villagetravel.Hotels" />
+        <activity android:name="com.example.villagetravel.LastPage" />
+        <activity android:name="com.example.villagetravel.CustomerFeedbacks" />
+        <activity android:name="com.example.villagetravel.EditPayment" />
+        <activity android:name="com.example.villagetravel.SignUp" />
+        <activity android:name="com.example.villagetravel.Available" />
+        <activity android:name="com.example.villagetravel.Reservation" />
+        <activity android:name="com.example.villagetravel.ResConfirmation" />
+        <activity android:name="com.example.villagetravel.Payment" />
+        <activity android:name="com.example.villagetravel.LoginPage" />
+        <activity android:name="com.example.villagetravel.EditUser" />
+        <activity android:name="com.example.villagetravel.MainActivity" />
+
+        <activity android:name="com.example.villagetravel.FirstPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.villagetravel.Available"
+    android:background="@drawable/pic001">
+
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="180dp"/>
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="9dp"/>
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="183dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginRight="9dp"/>
+
+    <Button
+        android:id="@+id/book"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#26A69A"
+        android:text="@string/btnBook"
+        android:layout_marginTop="130dp"/>
+
+    <TextView
+        android:id="@+id/textq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:text="Recomended for you."
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"/>
+
+</RelativeLayout>
